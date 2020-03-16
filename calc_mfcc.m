@@ -63,9 +63,9 @@ function [mfcc,sound_raw] = calc_mfcc(sound_raw,fs, k,window_size)
        % spec_flt(i,:) = buf; 
     end
     
-    figure()
-    surf((1:26), t_tmp, 20*log10(abs(spec_flt_histo)),'EdgeColor','None');
-    title('periodgram after mel FB');
+    % figure()
+    % surf((1:26), t_tmp, 20*log10(abs(spec_flt_histo)),'EdgeColor','None');
+    % title('periodgram after mel FB');
     % do a test here
     % i = 90;
     % figure()
